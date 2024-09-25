@@ -1,0 +1,131 @@
+body {
+	background-color: #FFF1F9;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+	height: 100%;
+}
+.navbar {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: 40px;
+	display: flex;
+	background-color: #FFDCF1;
+	justify-content: space-between;
+}
+.logo a{
+	font-size: 30px;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+}
+.pages {
+	display: flex;
+	gap: 10px;
+}
+.page {
+	color: #000;
+	text-decoration: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #FFB1E0;
+	border-radius: 100px;
+	box-shadow: 3px 6px #888888;
+	transition: 0.4s;
+	display: flex;
+	gap: 10px;
+}
+.page:hover {
+	font-size: 15px;
+	box-shadow: 0px 0px #888888;
+}
+.page1:hover {
+	padding-left: 21px;
+	padding-right: 20px;
+}
+.page2:hover {
+	padding-left: 23px;
+	padding-right: 24px;
+}
+.page3:hover {
+	padding-left: 22px;
+	padding-right: 21px;
+}
+.page-icon-2px {
+	padding-top: 2px;
+}
+.page-icon-1px {
+	padding-top: 1px;
+}
+.main {
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	padding-top: 100px;
+}
+.main-box {
+	background: #fff;
+	border-radius: 100px;
+	width: 60%;
+	height: 500px;
+	min-width: 520px;
+	display: inline;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+}
+.box-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.heading {
+	font-size: 40px;
+	font-weight: bold;
+}
+.button {
+	color: #000;
+	text-decoration: none;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #FFCCEB;
+	font-size: 20px;
+	border-radius: 100px;
+	box-shadow: 5px 10px #888888;
+	transition: 0.4s;
+}
+.button:hover {
+	font-size: 19px;
+	box-shadow: 0px 0px #888888;
+}
+@media (max-width: 520px) {
+	.page-text {
+		display: none;
+	}
+	.page1:hover {
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+	.page2:hover {
+		padding-left: 21px;
+		padding-right: 20px;
+	}
+	.page3:hover {
+		padding-left: 21px;
+		padding-right: 20px;
+	}
+	.main-box {
+		width: 100%;
+		min-width: 0px;
+	}	
+}
